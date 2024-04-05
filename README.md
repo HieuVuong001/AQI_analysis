@@ -42,7 +42,9 @@ To be updated...
 
 The list will be updated accordingly throughout the development cycle.
 
-# Explanation of baseline model
+# Explanation of baseline modules
+- Data Ingestion and Preprocessing Module
+  - In this module, it acts as the entry point for our data into the analysis pipeline, setting the foundation for accurate and meaningful insights. This module is responsible for importing the dataset from various sources like CSV files and performing initial preprocessing steps like cleaning, normalization, and transformation. We used Google Colab and pandas for manual data processing and transformation and save the processed dataframe to BigQuery.
 
 To be updated.
 
