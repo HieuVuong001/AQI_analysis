@@ -55,11 +55,25 @@ The list will be updated accordingly throughout the development cycle.
 - Data Export and Reporting Module
   - In this module, we will facilitate the dissemination and sharing of findings with the stakeholders and provide a consolidated view of the analysis outcomes. We offer the capability to export the analyzed data and visualizations into reports and dashboards. For visualizing the data and generating reports, we used tools like Google Data Studio and PowerBI that can connect directly to BigQuery. These tools allow stakeholders to interact with the data through dashboards and reports.
     
-    
 # Challenges / Solutions
+- Challenges Encountered:
+  - Data Quality and Consistency:
+     - Environmental datasets often suffer from inconsistencies, or errors due to the vast array of sources and collection methods which can complicate analysis and lead to inaccurate conclusions.
+  - Complexity in Data Integration:
+    - Integrating data from multiple years can be challenging especially when formats or measurement standards change over time.
+  - Visualization Complexity:
+    - Effectively visualizing environmental data, which might include multi-dimensional analyses and geographic information, requires sophisticated visualization tools that can be challenging to implement.
 
-To be updated.
-
+- Solutions to overcome challenges
+  - Improving Data Quality and Consistency:
+    - Implement robust data cleaning and preprocessing pipelines using automated scripts to identify and correct inconsistencies and fill in missing values where possible.
+    - Use statistical methods or machine learning to impute missing data accurately.
+  - Facilitating Data Integration:
+    - Standardize data formats and units of measurement as part of the preprocessing stage to simplify integration.
+  - Simplifying Visualization Complexity:
+    - Employ high-level visualization tools like PowerBI or Google Data Studio to abstract away some of the complexity.
+    - Engage with end-users to understand their needs and preferences, designing intuitive and interactive visualizations based on user feedback.
+      
 # References
 - [Data](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
 
