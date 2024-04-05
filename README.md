@@ -46,7 +46,11 @@ The list will be updated accordingly throughout the development cycle.
 - Data Ingestion and Preprocessing Module
   - In this module, it acts as the entry point for our data into the analysis pipeline, setting the foundation for accurate and meaningful insights. This module is responsible for importing the dataset from various sources like CSV files and performing initial preprocessing steps like cleaning, normalization, and transformation. We used Google Colab and pandas for manual data processing and transformation and save the processed dataframe to BigQuery.
 
-To be updated.
+- Analysis and Computation Module
+  - This is the heart of the project and the most important module where we transform the raw data into actionable insights by uncovering patterns and trends in AQI and pollutant levels. In this module, we performed statistical analyses, trend detection and pollutant-specific evaluations. It would leverage the data science libraries to compute averages, trends, correlations and other statistical measures.
+
+- Visualization Module
+  -  
 
 # Challenges / Solutions
 
