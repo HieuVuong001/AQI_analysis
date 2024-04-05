@@ -50,8 +50,12 @@ The list will be updated accordingly throughout the development cycle.
   - This is the heart of the project and the most important module where we transform the raw data into actionable insights by uncovering patterns and trends in AQI and pollutant levels. In this module, we performed statistical analyses, trend detection and pollutant-specific evaluations. It would leverage the data science libraries to compute averages, trends, correlations and other statistical measures.
 
 - Visualization Module
-  -  
-
+  -  This module mainly enhances the understanding and communication of the data analysis findings and allows the user to explore the trends and correlations in an intuitive manner. It enables the creation of interactive charts, graphs and maps to visually represent the analysis results. We implemented the time series plots of AQI trends for specific state or county, geographical heatmaps of pollutant concentrations and histograms or scatter plots for comparing different pollutants.
+ 
+- Data Export and Reporting Module
+  - In this module, we will facilitate the dissemination and sharing of findings with the stakeholders and provide a consolidated view of the analysis outcomes. We offer the capability to export the analyzed data and visualizations into reports and dashboards. For visualizing the data and generating reports, we used tools like Google Data Studio and PowerBI that can connect directly to BigQuery. These tools allow stakeholders to interact with the data through dashboards and reports.
+    
+    
 # Challenges / Solutions
 
 To be updated.
