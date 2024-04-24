@@ -18,6 +18,8 @@ Using your favorite virtual environment, install the required packages using
 pip install -r requirements.txt
 ```
 # Dashboard
+The dashboard is created in Google Looker Studio and it can connect directly to the BigQuery. The tool allows the stakeholders to interact with the data through dashboards and reports.
+
 [AQI Analysis Dashboard](https://lookerstudio.google.com/reporting/bd0f226a-dc71-4aea-98ef-08cf99882120)
 
 # Usage
@@ -33,7 +35,7 @@ To be updated...
     - [x] Handle missing values.
     - [x] Handle outliers.
     - [x] Improve data consistency (fix typos and/or units of measurements).
-    - [ ] Remove non-relevant information.
+    - [x] Remove non-relevant information.
     - [x] Quality check.
   - [x]  Exploring and visualizing data
     - [x] Get to know the data (types, dimensions, ...)
