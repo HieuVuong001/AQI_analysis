@@ -17,6 +17,9 @@ Using your favorite virtual environment, install the required packages using
 ```
 pip install -r requirements.txt
 ```
+# Dashboard
+[link]([https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual](https://lookerstudio.google.com/reporting/bd0f226a-dc71-4aea-98ef-08cf99882120))
+
 # Usage
 
 To be updated...
@@ -25,20 +28,20 @@ To be updated...
 - [x] Data Acquisition and Processing
   - [x] Acquire the data from the site.
   - [x] Store the data on Google Cloud's Big Query.
-- [ ] EDA and Visualization (<ins>Ongoing</ins>)
-  - [ ] Cleaning Data 
+- [x] EDA and Visualization (<ins>Ongoing</ins>)
+  - [x] Cleaning Data 
     - [x] Handle missing values.
-    - [ ] Handle outliers.
-    - [ ] Improve data consistency (fix typos and/or units of measurements).
+    - [x] Handle outliers.
+    - [x] Improve data consistency (fix typos and/or units of measurements).
     - [ ] Remove non-relevant information.
-    - [ ] Quality check.
-  - [ ]  Exploring and visualizing data
-    - [ ] Get to know the data (types, dimensions, ...)
-    - [ ] Distributions 
-    - [ ] Relationships
-    - [ ] Patterns 
-- [ ] Question/Problem Formulation
-- [ ] Data Modeling and Data App
+    - [x] Quality check.
+  - [x]  Exploring and visualizing data
+    - [x] Get to know the data (types, dimensions, ...)
+    - [x] Distributions 
+    - [x] Relationships
+    - [x] Patterns 
+- [x] Question/Problem Formulation
+- [x] Data Modeling and Data App
 
 The list will be updated accordingly throughout the development cycle.
 
@@ -76,7 +79,6 @@ The list will be updated accordingly throughout the development cycle.
       
 # References
 - [Data](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
-
 
 
 
