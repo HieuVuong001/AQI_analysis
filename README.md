@@ -18,7 +18,7 @@ Using your favorite virtual environment, install the required packages using
 pip install -r requirements.txt
 ```
 # Dashboard
-[link]([https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual](https://lookerstudio.google.com/reporting/bd0f226a-dc71-4aea-98ef-08cf99882120))
+[AQI Analysis Dashboard](https://lookerstudio.google.com/reporting/bd0f226a-dc71-4aea-98ef-08cf99882120)
 
 # Usage
 
