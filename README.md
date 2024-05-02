@@ -30,7 +30,7 @@ To be updated...
 - [x] Data Acquisition and Processing
   - [x] Acquire the data from the site.
   - [x] Store the data on Google Cloud's Big Query.
-- [x] EDA and Visualization (<ins>Ongoing</ins>)
+- [x] EDA and Visualization
   - [x] Cleaning Data 
     - [x] Handle missing values.
     - [x] Handle outliers.
