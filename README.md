@@ -24,7 +24,14 @@ The dashboard is created in Google Looker Studio and it can connect directly to 
 
 # Usage
 
-To be updated...
+Before running the following command, please get the data (`data.csv`) [here](https://drive.google.com/drive/u/0/folders/1a2SAtQaBHfKAMgpy2Z2GQUpNbJoPWSId
+) and move it to the current folder: 
+
+```
+python3 dashboard.py
+```
+
+The app will be hosted on localhost. Head there to see the dashboard
 
 # Roadmap
 - [x] Data Acquisition and Processing
@@ -45,6 +52,7 @@ To be updated...
   - [x] PCA  
 - [x] Question/Problem Formulation
 - [x] Data Modeling and Data App
+- [ ] Dashboard App
 
 The list will be updated accordingly throughout the development cycle.
 
