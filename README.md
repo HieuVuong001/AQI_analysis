@@ -41,7 +41,8 @@ To be updated...
     - [x] Get to know the data (types, dimensions, ...)
     - [x] Distributions 
     - [x] Relationships
-    - [x] Patterns 
+    - [x] Patterns
+  - [x] PCA  
 - [x] Question/Problem Formulation
 - [x] Data Modeling and Data App
 
@@ -64,6 +65,7 @@ The list will be updated accordingly throughout the development cycle.
 - Challenges Encountered:
   - Data Quality and Consistency:
      - Environmental datasets often suffer from inconsistencies, or errors due to the vast array of sources and collection methods which can complicate analysis and lead to inaccurate conclusions.
+     - Many of our analyses rely in statistical measures found in the dataset like Median AQI and Days_CO among others. However, the number of analyzed days per year is different from counties to counties. This is a classic case of sample size mismatch. In other words, the statisical measures of counties with less sample size might be skewed, which, as mentioned, could lead to inaccurate conclusions.  
   - Complexity in Data Integration:
     - Integrating data from multiple years can be challenging especially when formats or measurement standards change over time.
   - Visualization Complexity:
@@ -76,9 +78,10 @@ The list will be updated accordingly throughout the development cycle.
   - Facilitating Data Integration:
     - Standardize data formats and units of measurement as part of the preprocessing stage to simplify integration.
   - Simplifying Visualization Complexity:
+    - Utilizing PCA for dimensionality reduction.
     - Employ high-level visualization tools like PowerBI or Google Data Studio to abstract away some of the complexity.
     - Engage with end-users to understand their needs and preferences, designing intuitive and interactive visualizations based on user feedback.
-      
+
 # References
 - [Data](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
 
