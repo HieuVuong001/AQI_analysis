@@ -7,7 +7,7 @@ from plotly import graph_objects as go
 from util import preprocess, perform_PCA
 
 # Import data
-df = pd.read_csv('C:/Users/jeffr/Desktop/SJSU Course/24 Spring/CMPE-255/Project/data.csv', index_col=0)
+df = pd.read_csv('./data.csv', index_col=0)
 df = preprocess(df)
 perform_PCA(df)
 
