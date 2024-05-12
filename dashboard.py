@@ -2,6 +2,7 @@ from dash import Dash, html, dcc, callback, Output, Input, dash_table
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc
+
 from plotly import graph_objects as go
 
 from util import preprocess, perform_PCA
@@ -9,8 +10,8 @@ from util import preprocess, perform_PCA
 # Import data
 df = pd.read_csv('./data.csv', index_col=0)
 df = preprocess(df)
-perform_PCA(df)
 
+perform_PCA(df)
 # Use a Bootstrap theme for the app
 external_stylesheets = [dbc.themes.COSMO]
 app = Dash(__name__, external_stylesheets=external_stylesheets)
@@ -271,6 +272,15 @@ county_aqi_days_section = html.Div(
     className="my-4",
 )
 
+
+AQI_map = html.Div(
+    [
+        html.H1('Map of Median AQI in the United States', className='text-center'),
+        html.Iframe(src="https://www.google.com/maps/d/embed?mid=1MxO7WEcaoCNLPdGaXYSI3Del_lwdex4&ehbc=2E312F", width="100%", height="480", className='center'),
+    ],
+    className="my-4",
+)
+
 # Overall App Layout
 app.layout = html.Div(
     [
@@ -286,6 +296,7 @@ app.layout = html.Div(
                 aqi_distribution_section,
                 county_aqi_days_section,
                 pca_section,
+                AQI_map,
             ],
             fluid=True,
         ),
