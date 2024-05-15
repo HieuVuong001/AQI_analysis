@@ -2,7 +2,7 @@
 
 A project for Data Mining at San Jose State University.
 
-Analyzing the AQI trend for different areas in United States from 2013 to 2023.
+Analyzing the AQI trend for different areas in United States from 2013 to 2023 - from states to counties.
 
 # Getting Started
 
@@ -52,9 +52,8 @@ The app will be hosted on localhost. Head there to see the dashboard
   - [x] PCA  
 - [x] Question/Problem Formulation
 - [x] Data Modeling and Data App
-- [ ] Dashboard App
+- [x] Dashboard App
 
-The list will be updated accordingly throughout the development cycle.
 
 # Explanation of baseline modules
 - Data Ingestion and Preprocessing Module
